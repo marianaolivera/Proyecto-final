@@ -1,0 +1,27 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^17.7.2",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "description": "1-Agregué descripción a cada pagina\r 2-Agregué las palabras claves a cada pagina\r 3-Hice el mapa en xml.\r 4-Hice el icono para las pestañas en todas las paginas con un gif relacionado a la tematica del sitio.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianaolivera/seo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marianaolivera/seo/issues"
+  },
+  "homepage": "https://github.com/marianaolivera/seo#readme",
+  "devDependencies": {}
+}

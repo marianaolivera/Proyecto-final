@@ -1,0 +1,16 @@
+.section--work{
+    font-size: 20px;
+    color:rgb(17, 17, 17);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:8px;
+    }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+@media(min-width: 500px){
+        .section--work{
+        font-size: 40px;
+}
+}

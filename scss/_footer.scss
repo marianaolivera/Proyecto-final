@@ -1,0 +1,13 @@
+
+    .contact__text{
+      text-align: center;  
+      color:$color-primary;
+      font-size: 11px;
+      font-family: sans-serif;
+      font-weight: lighter;
+      margin: 3px;
+    }
+    @media(min-width:500px) {
+      .contact__text{
+      font-size:15px;}
+    }  
